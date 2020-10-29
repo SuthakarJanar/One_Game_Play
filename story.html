@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Story</title>
+		<link rel="stylesheet" type="text/css" href="css/stylesStory.css">
+		<script src="js/parallax.js"></script>
+	</head>
+
+	<body>
+
+		<audio control autoplay="" loop="">
+			<source src="audio/Story.mp3" type="audio/mpeg">
+		</audio>
+
+		<!-- Menu de Navigation -->
+		<nav class="Menu">
+			<ul>
+				<li class="btn">
+					<a href="index.html">
+						✨Accueil✨
+					</a>
+				</li>
+				<li class="btn">
+					<a href="adn.html">
+						⏳One Piece⏳
+					</a>
+				</li>
+				<li class="btn">
+					<a href="contact.html">
+						📞Discord📞
+					</a>
+				</li>
+				<li class="btn">
+					<a href="#">
+						🏴‍☠️STORY🏴‍☠️
+					</a>
+				</li>
+				<li class="btn">
+					<a href="primes.html">
+						💶PRIMES💶
+					</a>
+				</li>
+				<li class="btn">
+					<a href="jeux.html">
+						🎮JEUX🎮
+					</a>
+				</li>
+			</ul>
+		<div class="story">
+
+			<h1 class="histoire">
+				L'histoire de One Piece
+			</h1>
+
+			<div class="container">
+			<ul id="scene">
+				<li class="layer" data-depth="1"><img src="img_story/1.png"></li>
+				<li class="layer" data-depth="-2"><img src="img_story/2.png"></li>
+				<li class="layer" data-depth="3"><img src="img_story/3.png"></li>
+				<li class="layer" data-depth="-4"><img src="img_story/4.png"></li>
+				<li class="layer" data-depth="5"><img src="img_story/5.png"></li>
+				<li class="layer" data-depth="-6"><img src="img_story/6.png"></li>
+				<li class="layer" data-depth="7"><img src="img_story/7.png"></li>
+				<li class="layer" data-depth="-8"><img src="img_story/8.png"></li>
+				<li class="layer" data-depth="-2"><img src="img_story/2 - Copie.png"></li>
+				<li class="layer" data-depth="-3"><img src="img_story/3 - Copie.png"></li>
+				<li class="layer" data-depth="4"><img src="img_story/4 - Copie.png"></li>
+				<li class="layer" data-depth="-5"><img src="img_story/5 - Copie.png"></li>
+				<li class="layer" data-depth="6"><img src="img_story/6 - Copie.png"></li>
+				<li class="layer" data-depth="-7"><img src="img_story/7 - Copie.png"></li>
+				<li class="layer" data-depth="8"><img src="img_story/8 - Copie.png"></li>
+			</ul>
+
+		</div>
+		<script>
+			var scene = document.getElementById('scene');
+			var parallax = new Parallax(scene);
+		</script>
+			<p class="gold">
+				L'histoire suit les aventures de Monkey D. Luffy, un garçon dont le corps a acquis les propriétés du caoutchouc après avoir mangé par inadvertance un fruit du démon.
+				Avec son équipage de pirates, appelé l'équipage de Chapeau de paille, Luffy explore Grand Line à la recherche du trésor ultime connu sous le nom de
+ 				« One Piece » afin de devenir le prochain roi des pirates. 
+			</p>
+
+			<div class="GolD">
+			<img src="img_story/GolDRoger.jpg" alt="GolDRoger" height="500">
+			<p class="gold">
+				Gol D. Roger, plus connu sous le nom de Gold Roger, fut le précédent Seigneur des Pirates et l'ancien propriétaire du trésor légendaire, le One Piece. Roger était le capitaine de L'Équipage des Pirates Roger, seul équipage à avoir été jusqu'au bout de Grand Line et avoir atteint Rough Tell. Il était aussi le père de Portgas D. Ace, enfant qu'il a eu avec Portgas D. Rouge. Il a été exécuté il y a plus de 20 ans à Loguetown, sa ville natale. 
+			</p>
+			</div>
+
+		</div>
+	</body>
+</html>

@@ -1,0 +1,21 @@
+body
+{
+	background-size: 100%;
+	background-image: url(../img_tresor/tresor.jpg);
+	text-shadow: #fff 5px 0 20px;
+}
+
+
+div.tresor p{
+	color: black;
+	font-size: 50px;
+	text-align: center;
+	box-shadow: 10px 10px 15px black;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+
+img
+{
+	box-shadow: 10px 10px 15px black;
+}

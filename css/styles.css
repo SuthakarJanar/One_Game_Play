@@ -1,0 +1,75 @@
+
+audio
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+body
+{
+	margin: 0;
+	padding: 0;
+	background-color: #141414
+}
+
+.container
+{
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	background: url(background)
+	no-repeat; background-size: 100%;
+	background-attachment: fixed;
+	background-color: #141414;
+}
+.mixBlnd
+{
+	background-blend-mode: screen;
+}
+
+nav.Menu
+{
+	text-align: center;
+	z-index: 1;
+}
+
+nav.Menu ul li.btn
+{
+	display: inline-block;
+}
+
+nav.Menu ul li.btn
+{
+	list-style-type: none;
+}
+
+nav.Menu ul a
+{
+	color: white;
+	background-color: black;
+	text-decoration: none;
+	padding: 10px;
+	font-size: 20px;
+}
+
+nav.Menu ul li.btn:hover a
+{
+	color: black;
+	background-color: gold;
+	transition: 0.5s all;
+}
+
+
+
+footer.Copyright{
+	text-align: bottom;
+	text-align: center;
+	background-color: red;
+	opacity: 50%;
+}
+
+div.story{
+	z-index: 2;
+}

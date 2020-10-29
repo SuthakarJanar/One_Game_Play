@@ -1,0 +1,54 @@
+body{
+	background: url(ttps://images6.alphacoders.com/465/thumb-1920-465671.png) 
+	no-repeat; background-size: 100%;
+
+	background-color: #232429;
+}
+
+div.discord a img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav.Menu{
+	text-align: center;
+}
+
+nav.Menu ul li.btn{
+	display: inline-block;
+}
+
+nav.Menu ul li.btn{
+	list-style-type: none;
+}
+
+nav.Menu ul a{
+	color: white;
+	background-color: black;
+	text-decoration: none;
+	padding: 10px;
+	font-size: 20px;
+}
+
+nav.Menu ul li.btn:hover a{
+	color: black;
+	background-color: gold;
+	transition: 0.5s all;
+}
+
+div.LOGO h1
+{
+	color: red;
+	text-align: center;
+}
+
+div.LOGO
+{
+	text-shadow: #fff 5px 0 20px;
+}
+
+.primes
+{
+	display:inline-block;
+}
